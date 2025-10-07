@@ -3,21 +3,33 @@ import React, {useState} from 'react'
 
 export default function TextForm(props) {
     const handleUpClick = ()=>{
-        console.log("Uppercase was clicked: " +  text);
+       // console.log("Uppercase was clicked: " +  text);
         let newText = text.toUpperCase();
         setText(newText);
     }
      const handleLowClick = ()=>{
-        console.log("Lowercase was clicked: " +  text);
+       // console.log("Lowercase was clicked: " +  text);
         let newText = text.toLowerCase();
         setText(newText);
     }
-    const handelOnChange = (event)=>{
-        console.log("on change");
-        setText(event.target.value);
-        setText(event.target.value);
+     const handleOriginalClick = ()=>{
+        //let newText = ;
+        setText(originalText); // Restore original text
+
     }
-    const [text, setText] = useState('Enter text here');
+    const handleClearClick = ()=>{
+      setOriginalText(text); // Save current before clearing
+        let newText = '';
+        setText(newText);
+    }
+    const handelOnChange = (event)=>{
+       // console.log("on change");
+        setText(event.target.value);
+        
+    }
+    const [text, setText, ] = useState('Enter text here');
+     const [originalText, setOriginalText] = useState('Enter text here'); // Backup state
+
     // text ="new text";
     // setText("new text");
     return (
@@ -29,6 +41,8 @@ export default function TextForm(props) {
 </div> 
     <button className="btn primary mx-1" onClick={handleUpClick} style={{background: "blue"}}>convert to UpperCase</button>
     <button className="btn primary mx-1" onClick={handleLowClick} style={{background: "green"}}>convert to LowerCase</button>
+    <button className="btn primary mx-1" onClick={handleClearClick} style={{background: "red"}}>clear text</button>
+    <button className="btn primary mx-1" onClick={handleOriginalClick} style={{background: "pink"}}>original text</button>
     </div>
     <div className="container my-2">
       <h2>your text summary</h2>
