@@ -27,6 +27,24 @@ export default function TextForm(props) {
         setText(event.target.value);
         
     }
+    const handleCopy = ()=>{
+        console.log("i am copy");
+          let text = document.getElementById("myText");
+          text.select();
+          navigator.clipboard.writeText(text.value);
+
+    }
+
+    const handleExtraSpace = () => {
+      let newText = text.split(/[ ]+/);
+      setText(newText.join(" ")); 
+    }
+
+    const handleCapitalizeWords = () => {
+      let newText  = text.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+      setText(newText);
+    }
+
     const [text, setText, ] = useState('Enter text here');
      const [originalText, setOriginalText] = useState('Enter text here'); // Backup state
 
@@ -43,6 +61,9 @@ export default function TextForm(props) {
     <button className="btn primary mx-1" onClick={handleLowClick} style={{background: "green"}}>convert to LowerCase</button>
     <button className="btn primary mx-1" onClick={handleClearClick} style={{background: "red"}}>clear text</button>
     <button className="btn primary mx-1" onClick={handleOriginalClick} style={{background: "pink"}}>original text</button>
+    <button className="btn primary mx-1" onClick={handleCopy} style={{background: "pink"}}>Copy Text</button>
+    <button className="btn primary mx-1" onClick={handleExtraSpace} style={{background: "violet"}}>Remove Extra Spaces</button>
+    <button className="btn primary mx-1" onClick={handleCapitalizeWords} style={{background: "cyan"}}>Capital First Letter</button>
     </div>
     <div className="container my-2">
       <h2>your text summary</h2>
