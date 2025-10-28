@@ -1,0 +1,60 @@
+{
+"status": "ok",
+"totalResults": 4,
+"articles": [
+{
+"source": {
+"id": null,
+"name": "Kotaku"
+},
+"author": "Kotaku Deals",
+"title": "AirPods Pro With ANC Are Going for Pennies, Now 3x Cheaper Than the AirPods Max",
+"description": "This is possibly the best deal of 2025 if you're looking for active noise cancellation earbuds.\nThe post AirPods Pro With ANC Are Going for Pennies, Now 3x Cheaper Than the AirPods Max appeared first on Kotaku.",
+"url": "https://kotaku.com/airpods-pro-with-anc-are-going-for-pennies-now-3x-cheaper-than-the-airpods-max-2000638986",
+"urlToImage": "https://kotaku.com/app/uploads/2025/09/AirPods-2-Pro.jpg",
+"publishedAt": "2025-10-25T00:20:30Z",
+"content": "The AirPods Pro 2 are still Apple’s flagship earbuds and they sit just one generation behind the recently released Pro 3. Here’s the thing though: the improvements between these two generations are i… [+3438 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "Zachary Ehrmann",
+"title": "Officials push transformative program that would reimagine city streets: 'Offers additional benefits'",
+"description": "It could be a model for other cities.",
+"url": "https://www.yahoo.com/news/articles/officials-push-transformative-program-reimagine-023000926.html",
+"urlToImage": "https://s.yimg.com/ny/api/res/1.2/nTELpCAGJT02e9ezkAo8Mg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/the_cool_down_737/d0f4bf9588bcd2aebbf652a3b9da043b",
+"publishedAt": "2025-10-25T02:30:00Z",
+"content": "New York City may soon turn its sweltering summer streets into cooler, safer spaces.\r\nA new bill has proposed a $5.5 million \"cool pavement\" pilot program. This program could transform how the city m… [+2340 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Iverify.io"
+},
+"author": null,
+"title": "Key IOCs for Pegasus and Predator Spyware Removed with iOS 26 Update",
+"description": "iOS 26 changes how shutdown logs are handled, erasing key evidence of Pegasus and Predator spyware, creating new challenges for forensic investigators",
+"url": "https://iverify.io/blog/key-iocs-for-pegasus-and-predator-spyware-cleaned-with-ios-26-update",
+"urlToImage": "https://framerusercontent.com/images/n00SzoSEjMTKbxlL8wmp11Nv9Yc.png?width=1920&height=1080",
+"publishedAt": "2025-10-25T02:31:55Z",
+"content": "As iOS 26 is being rolled out, our team noticed a particular change in how the operating system handles the shutdown.log file: it effectively erases crucial evidence of Pegasus and Predator spyware i… [+4853 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Tim.blog"
+},
+"author": "Tim Ferriss",
+"title": "The Tim Ferriss Show Transcripts: The Return of The Lion Tracker — Boyd Varty on The Wild Man Within, Nature’s Hidden Wisdom, and How to Feel Fully Alive (#832)",
+"description": "Please enjoy this transcript of my interview with Boyd Varty (@boyd_varty), the founder of Track Your Life. As a fourth-generation custodian of Londolozi Game Reserve, Boyd grew up with lions, leopards, snakes, and elephants and has spent his life in apprenti…",
+"url": "https://tim.blog/2025/10/24/the-return-of-the-lion-tracker-transcript/",
+"urlToImage": "https://tim.blog/wp-content/uploads/2025/10/Boyd-Varty-Illustration-scaled.jpg",
+"publishedAt": "2025-10-25T05:54:59Z",
+"content": "Please enjoy this transcript of my interview with Boyd Varty(@boyd_varty), the founder of Track Your Life. As a fourth-generation custodian of Londolozi Game Reserve, Boyd grew up with lions, leopard… [+115294 chars]"
+}
+
+
+]
+}
