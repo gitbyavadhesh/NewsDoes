@@ -17,15 +17,18 @@ import {
 export default class App extends Component {
      pageSize = 15;
      country = "us";
-     apikey = process.env.REACT_APP_NEWS_API
+     apikey = "063a33a0e52248168c501e7e6064d8c4"
      state = {
       progress:0
      }
      setProgress = (progress)=>{
       this.setState({progress: progress})
      }
+     
+
   
   render() {
+    console.log("API Key:", process.env.REACT_APP_NEWS_API);
     return (
       <div>
         <BrowserRouter>
@@ -37,7 +40,7 @@ export default class App extends Component {
         // onLoaderFinished={() => setProgress(0)}
       />
         <Routes>
-
+        
          <Route exact path="/" element={<News setProgress={this.setProgress} apikey={this.apikey}  key="general" pageSize={this.pageSize} country={this.country} category='general'/>} />
          <Route exact path="/technology" element={<News setProgress={this.setProgress} apikey={this.apikey}  key="technology" pageSize={this.pageSize} country={this.country} category='technology'/>} />
          <Route exact path="/business" element={<News setProgress={this.setProgress} apikey={this.apikey}  key="business" pageSize={this.pageSize} country={this.country} category='business'/>} />
